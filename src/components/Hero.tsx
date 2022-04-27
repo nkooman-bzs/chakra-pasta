@@ -33,7 +33,7 @@ export const Hero = () => {
         <Heading fontFamily="cursive" color="brand.accent">
           Chakra Pasta
         </Heading>
-        <Heading fontSize={{ base: 60, md: 80 }} mt={5} my={10}>
+        <Heading fontSize={{ base: 60, md: 80 }} mt={5} my={10} color="brand.white">
           Taste of Italy
         </Heading>
         <Stripe w={{ base: 150, md: 250 }} />

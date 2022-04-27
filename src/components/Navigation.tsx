@@ -7,7 +7,8 @@ const Nav = chakra('nav', {
     width: '100%',
     height: 150,
     zIndex: 1,
-    fontFamily: 'body'
+    fontFamily: 'body',
+    color: 'brand.white'
   }
 });
 
