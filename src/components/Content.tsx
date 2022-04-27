@@ -8,7 +8,7 @@ export const Content: FC<PropsWithChildren<{ bg?: BackgroundProps['bg'] }>> = ({
   return (
     <Box bg={bg} py={16}>
       <Container>
-        <Text color="black" fontSize={18}>
+        <Text color="black" fontSize={18} fontFamily="body">
           {children}
         </Text>
       </Container>
